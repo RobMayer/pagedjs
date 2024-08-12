@@ -600,8 +600,8 @@ export default `
 	initial-letter: unset;
 }
 
-.pagedjs_pages > .pagedjs_page > .pagedjs_sheet > .pagedjs_pagebox > .pagedjs_area > div [data-split-from] > *::first-letter,
-.pagedjs_pages > .pagedjs_page > .pagedjs_sheet > .pagedjs_pagebox > .pagedjs_area > div [data-split-from]::first-letter {
+.pagedjs_pages > .pagedjs_page > .pagedjs_sheet > .pagedjs_pagebox > .pagedjs_area > div [data-split-from] > *:first-child::first-letter,
+.pagedjs_pages > .pagedjs_page > .pagedjs_sheet > .pagedjs_pagebox > .pagedjs_area > div [data-split-from]:first-child::first-letter {
 	color: unset;
 	font-size: unset;
 	font-weight: unset;
@@ -611,6 +611,7 @@ export default `
 	float: unset;
 	padding: unset;
 	margin: unset;
+	initial-letter: unset;
 }
 
 .pagedjs_pages > .pagedjs_page > .pagedjs_sheet > .pagedjs_pagebox > .pagedjs_area > div [data-split-to]:not([data-footnote-call]):after,
